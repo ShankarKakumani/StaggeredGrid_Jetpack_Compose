@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId "com.simpleenergy.staggeredpoc"
-        minSdk 21
+        minSdk 23
         targetSdk 32
         versionCode 1
         versionName "1.0"
@@ -71,5 +71,7 @@ dependencies {
     implementation "androidx.hilt:hilt-navigation-compose:1.0.0"
 
     implementation "androidx.constraintlayout:constraintlayout-compose:1.0.0"
+
+    implementation 'com.valentinilk.shimmer:compose-shimmer:1.0.0'
 
 }

@@ -15,9 +15,10 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 
 @HiltViewModel
-class MainViewModel @Inject constructor(): ViewModel() {
+class MainViewModel @Inject constructor() : ViewModel() {
 
     val showRemoveIcon = mutableStateOf(false)
+    val showShimmerEffect = mutableStateOf(false)
 
     val staggeredList = mutableStateListOf(
         StaggeredModel(type = WidgetType.Battery, color = Green_Battery),
