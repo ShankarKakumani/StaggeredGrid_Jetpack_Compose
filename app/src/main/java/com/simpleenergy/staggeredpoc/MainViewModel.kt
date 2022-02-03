@@ -31,8 +31,8 @@ class MainViewModel @Inject constructor() : ViewModel() {
         StaggeredModel(type = WidgetType.Range, color = Blue_Range),
         StaggeredModel(type = WidgetType.Directions, color = Color.DarkGray),
         StaggeredModel(type = WidgetType.Range, color = Green_Battery),
-        StaggeredModel(type = WidgetType.Directions, color = Blue_Range),
-        StaggeredModel(type = WidgetType.Directions, color = Color.Red),
+        StaggeredModel(type = WidgetType.Battery, color = Blue_Range),
+        StaggeredModel(type = WidgetType.Range, color = Color.Red),
         StaggeredModel(type = WidgetType.Directions, color = Color.Cyan),
     )
 
